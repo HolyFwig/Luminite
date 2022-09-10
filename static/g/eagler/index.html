@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Eaglercraft - g.deev.is</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Eaglercraft is real Minecraft 1.5.2 that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It supports both singleplayer and multiplayer with no extensions." />
+<meta name="keywords" content="minecraft, eaglercraft, singleplayer, applet, replit, browser, html5, javascript, chromebook, lax1dude, games, eagler" />
+<meta name='url' content="https://g.deev.is/eaglercraft/" />
+<meta name="author" content="lax1dude" />
+<meta property="og:title" content="Eaglercraft" />
+<meta property="og:locale" content="en-US" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://g.deev.is/eaglercraft/" />
+<meta property="og:image" content="https://g.deev.is/eaglercraft/cover.jpg" />
+<meta property="og:description" content="Eaglercraft is real Minecraft 1.5.2 that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It supports both singleplayer and multiplayer with no extensions." />
+<link type="image/x-icon" rel="shortcut icon" href="favicon.ico" />
+<script type="text/javascript" src="alts.js"></script>
+<script type="text/javascript" src="classes_v2_9.js"></script>
+<script type="text/javascript" src="eagswebrtc_v2.js"></script>
+<style type="text/css">
+a.nolink, a.nolink:link, a.nolink:hover, a.nolink:visited {
+	color: white;
+}
+a.nolink:active {
+	color: yellow;
+}
+#available {
+	position: fixed;
+	background-color: #333333;
+	top: 0px;
+	right: 0px;
+	padding: 10px 30px;
+	width:min(80vw,250px); 
+	color:white;
+}
+#available_hide {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	margin: 10px;
+	padding: 2px;
+	font-weight: bold;
+	border: 1px solid white;
+	font-size: 12px;
+	line-height: 12px;
+	cursor: pointer;
+	background-color: #333333;
+}
+</style>
+<script type="text/javascript">
+window.addEventListener("load", function(){
+const relayId = Math.floor(Math.random() * 3);
+window.eaglercraftOpts = {
+container: "game_frame", assetsURI: "assets_v2_8.epk", serverWorkerURI: "worker_bootstrap_v2_8.js", worldsFolder: "MAIN",
+servers: [
+	{ serverName: "SealCraft", serverAddress: "wss://sealcraft.ddns.net:442/servers" },
+	{ serverName: "Primmit", serverAddress: "wss://play.bnogocarft.me" },
+	{ serverName: "VanillaCraft", serverAddress: "wss://play.vanillacraftsmp.org/" },
+	{ serverName: "AssPixel", serverAddress: "wss://web.asspixel.net/CAP/" },
+	{ serverName: "Aeon", serverAddress: "wss://aeon-network.net/aeon" },
+	{ serverName: "ayunami's server", serverAddress: "wss://sus.shhnowisnottheti.me" }
+], hideDownServers: true,
+assetOverrides: {
+	"records/mellohi.mp3": "https://stream.nightride.fm/chillsynth.m4a",
+	"records/far.mp3": "https://stream.nightride.fm/nightride.m4a",
+	"records/cat.mp3": "https://usa9.fastcast4u.com/proxy/jamz?mp=/1",
+	"records/blocks.mp3": "https://www.ophanim.net:8444/s/9780",
+	"records/13.mp3": "https://s2.radio.co/s2b2b68744/listen",
+	"records/strad.mp3": "https://real.shhnowisnottheti.me/menu.mp3",
+	"records/wait.mp3": "https://real.shhnowisnottheti.me/creative.mp3",
+	"records/ward.mp3": "https://real.shhnowisnottheti.me/record.mp3",
+	"records/chirp.mp3": "https://real.shhnowisnottheti.me/game.mp3"
+},
+relays: [
+	{ addr: "wss://relay.deev.is/", name: "lax1dude relay #1", primary: relayId == 0 },
+	{ addr: "wss://relay.lax1dude.net/", name: "lax1dude relay #2", primary: relayId == 1 },
+	{ addr: "wss://relay.shhnowisnottheti.me/", name: "ayunami relay #1", primary: relayId == 2 }
+],
+mainMenu: { splashes: [
+"Darviglet!", "eaglerenophile!", "You Eagler!", "Yeeeeeee!", "yeee",
+"EEEEEEEEE!", "You Darvig!", "You Vigg!", ":>", "|>", "You Yumpster!"
+], eaglerLogo: false }};
+(function(){
+var q = window.location.search;
+if(typeof q === 'string' && q.startsWith("?")) {
+	q = new URLSearchParams(q);
+	var s = q.get("server");
+	if(s) window.minecraftOpts.push(s);
+}
+})();
+setTimeout(function() { document.getElementById("available").style.display = "block"; }, 5000 );
+window.remAvailable = setTimeout(function() { document.getElementById("available").remove(); }, 18000 );
+document.getElementById("available_hide").addEventListener("click", function() {
+	clearTimeout(window.remAvailable);
+	document.getElementById("available").remove();
+});
+main();
+});
+</script>
+</head>
+<body style="margin:0px;width:100vw;height:100vh;" id="game_frame">
+<div id="available" style="display:none;">
+<p id="available_hide">&nbsp;X&nbsp;</p>
+<p style="margin:0px;">For people with restricted internet access, eaglercraft is available as a downloadable HTML file, <a class="nolink" href="https://github.com/lax1dude/eaglercraft/raw/main/stable-download/Offline_Download_Version.html">click here</a> to download the latest version</p>
+<p style="font-weight:bold;margin:10px 0px 5px 0px;">You can <a class="nolink" href="javascript:view_alts();">click here</a> for a list of other unblocked URLs for eagler</p>
+</div>
+</body>
+</html>
