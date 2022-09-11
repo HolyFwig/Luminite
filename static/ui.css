@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body {
-    background-image: url('/static/assets/bg.gif');
+    background-image: url('/assets/bg.gif');
     font-family: 'Ubuntu', sans-serif;
     -webkit-background-size: cover;
     -moz-background-size: cover;
