@@ -10,3 +10,11 @@ Luminite is Team Lunar's proxy site built on the Ultraviolet Proxy.
 $ npm install
 $ npm start
 ```
+
+# Setup on your own Machine
+```
+$ git clone https://github.com/Lunadox-Dev/Luminite --recursive
+$ cd Luminite
+$ npm install
+$ npm start
+```
