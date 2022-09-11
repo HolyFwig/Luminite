@@ -8,5 +8,5 @@ Luminite is Team Lunar's proxy site built on the Ultraviolet Proxy.
 
 ```sh
 $ npm install
-$ start
+$ npm start
 ```
