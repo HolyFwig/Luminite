@@ -7,6 +7,7 @@ Luminite is Team Lunar's proxy site built on the Ultraviolet Proxy.
 # Feature Goals
 - Add Settings Section
 - Add AB Cloaking
+- Adding Apps Section
 - Looking into adding suggestions from people
 
 # Setup on Replit
