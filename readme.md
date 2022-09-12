@@ -18,3 +18,5 @@ $ cd Luminite
 $ npm install
 $ npm start
 ```
+
+Frontend by Team Lunar, Backend by Titanium Network
