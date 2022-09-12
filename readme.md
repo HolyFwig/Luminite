@@ -5,8 +5,8 @@ Luminite is Team Lunar's proxy site built on the Ultraviolet Proxy.
 <a href="https://replit.com/github/Lunadox-Dev/Luminite"><img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg" width="150" height="35"></a>
 
 # Feature Goals
-- Settings Section
-- AB Cloaking
+- Add Settings Section
+- Add AB Cloaking
 - Looking into adding suggestions from people
 
 # Setup on Replit
