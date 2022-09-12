@@ -19,4 +19,4 @@ $ npm install
 $ npm start
 ```
 
-Frontend by Team Lunar, Backend by Titanium Network
+## Frontend by Team Lunar, Backend by Titanium Network
