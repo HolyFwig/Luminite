@@ -1,5 +1,6 @@
 # Luminite
-Luminite is Team Lunar's proxy site with countless features (currently a wip)
+Luminite is Team Lunar's proxy site with countless features with the goal to end internet censorship. (currently a wip)
+Join the <a href="https://dsc.gg/teamlunar">Team Lunar Discord Server</a> for help, updates, and more links
 
 # Deployment Options
 <a href="https://replit.com/github/Lunadox-Dev/Luminite"><img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg" width="150" height="35"></a>
