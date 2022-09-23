@@ -1,5 +1,5 @@
 # Luminite
-Luminite is Team Lunar's proxy site built on the Ultraviolet Proxy.
+Luminite is Team Lunar's proxy site with countless features (currently a wip)
 
 # Deployment Options
 <a href="https://replit.com/github/Lunadox-Dev/Luminite"><img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg" width="150" height="35"></a>
@@ -9,7 +9,6 @@ Luminite is Team Lunar's proxy site built on the Ultraviolet Proxy.
 - Add Settings Section
 - Add AB Cloaking
 - Adding Apps Section
-- Looking into adding suggestions from users
 
 # Setup on Replit
 
@@ -26,4 +25,4 @@ $ npm install
 $ npm start
 ```
 
-# Frontend by <a href="https://discord.gg/dtPSdnfxXJ">Team Lunar</a>, Backend by Titanium Network
+# Frontend by Lunadox, Backend Proxies: Ultraviolet <a href="https://discord.gg/unblock">(TN)</a>
