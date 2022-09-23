@@ -6,10 +6,7 @@ Join the <a href="https://dsc.gg/teamlunar">Team Lunar Discord Server</a> for he
 <a href="https://replit.com/github/Lunadox-Dev/Luminite"><img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg" width="150" height="35"></a>
 
 # Feature Goals
-- Expanding Games Section
-- Add Settings Section
-- Add AB Cloaking
-- Adding Apps Section
+- Completing the Settings page
 
 # Setup on Replit
 
