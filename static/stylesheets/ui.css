@@ -76,4 +76,23 @@ input {
     height: 50px;
     padding: 30px;
     border-radius: 20px;
+<<<<<<< HEAD
+=======
+}
+h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+h3 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+u {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+>>>>>>> 1957db48b89c9ab4993d0fc150a9b86db5933b24
 }
