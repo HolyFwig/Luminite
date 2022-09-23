@@ -1,0 +1,79 @@
+body {
+    background-color: #00001D;
+    font-family: sans-serif;
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(45deg,#FF0000,#FF7F00,#FFFF00,#00FF00,#0000FF,#04F26C,#6500FF,#04F297);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+
+    -webkit-animation: rainbowanim 10s ease infinite;
+    -moz-animation: rainbowanim 10s ease infinite;
+    animation: rainbowanim 10s ease infinite;
+  }
+  @-webkit-keyframes rainbowanim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @-moz-keyframes rainbowanim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @keyframes rainbowanim { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+h2 {
+    color: white;
+    font-size: 27.5px;
+    text-align: center;
+}
+.navbar {
+    background-color: #00001D;
+    width: 32.5%;
+    height: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    text-align: center;
+    margin: auto;
+}
+a, button {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border: 0px;
+    background: transparent;
+    cursor: pointer;
+    transition: all .2s ease-in-out; 
+} 
+a, button:hover { 
+    transform: scale(1.1); 
+}
+hr {
+    width: 1150px;
+    border: 1px solid gray;
+}
+input {
+    color: white;
+    border: 1px solid gray;
+    background-color: #00001D;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.table {
+    text-align:center;
+    margin:0px auto;
+}
+img {
+    border-radius: 20px;
+}
